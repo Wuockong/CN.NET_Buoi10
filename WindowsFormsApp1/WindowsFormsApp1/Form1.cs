@@ -80,13 +80,13 @@ namespace WindowsFormsApp1
                     }
                     else
                     {
-                        MessageBox.Show("Không có câu trả lời cho câu hỏi này!");
+                        MessageBox.Show("Hết câu hỏi rồi!");
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi khi tải dữ liệu từ cơ sở dữ liệu: " + ex.Message);
+                MessageBox.Show("Lỗi: " + ex.Message);
             }
         }
 
